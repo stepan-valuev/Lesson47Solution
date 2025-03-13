@@ -1,4 +1,5 @@
-﻿#include "util.h"
+﻿
+#include "util.h"
 
 string convert(int* array, int size) {
 	string s = "";

@@ -18,21 +18,10 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="logic.cpp" />
-    <ClCompile Include="test.cpp" />
-    <ClCompile Include="test_runner.cpp" />
-    <ClCompile Include="util.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="logic.h" />
-    <ClInclude Include="test.h" />
-    <ClInclude Include="util.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{BAA7FF3A-98FB-4839-9007-EAC90AE65486}</ProjectGuid>
-    <RootNamespace>task03</RootNamespace>
+    <ProjectGuid>{C0A7283B-5A6C-4317-BA0B-C2C9F5AAE637}</ProjectGuid>
+    <RootNamespace>task05</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,6 +118,17 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="logic.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="test_runner.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logic.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
